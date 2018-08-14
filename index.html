@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Zadanie 11.2</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+</head>
+<body>
+    <script id="slajd" type="x-tmpl-mustache">
+        <div>
+            <p>{{title}}</p>
+            <img src="{{image}}" alt="Photo placeholder">
+            <p>{{description}}</p>
+        </div>
+    </script>
+
+    <div id="container" class="kar">
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="mustache/mustache.js"></script>
+    <script src="karuzela.js"></script>
+
+
+
+    <script type="text/javascript">
+
+        init();
+
+    </script>
+</body>
+</html>
